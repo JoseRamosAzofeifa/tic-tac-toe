@@ -1,13 +1,117 @@
+
 @import "~bootstrap/scss/bootstrap.scss";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container-cat{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.square{
 
-/* 
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(115, 115, 221);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 
-    You can write your own styles here...
+}
+.heading{
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+h2{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(67, 67, 139);
+}
+#boton{
     
+    width: 60px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 5px;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+.box{
+    width: 480px;
+    height: 260px;
+    background: rgb(136, 132, 132);
+    border-radius: 4px;
+    margin-left: 31%;
+    margin-top: 5%;
+}
+.form-group{
+    width: 150px;
+    margin-left: 40px;
+}
+.choose{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#user{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 45px;
+}
+#user1{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+}
+.useres{
+    display: flex;
+    flex-direction: row;
+}
+#user2{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    margin-right: 40px;
+}
+.form-group2{
+    margin-left: 100px;
+}
+#nombre{
+width: 150px;
+}
+.boxes{
+width: 100px;
+height: 100px;
+background-color: transparent;
+font-size: 60px;
+padding-bottom: 10px;
+font-weight: bold;
+
+}
